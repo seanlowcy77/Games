@@ -61,7 +61,7 @@ def isTaken(position):
         print("Is already taken find another spot!")
         return True
         
-# G 
+ 
 def getCoordinates(position):
     position = int(position)
     column = (position - 1) % 3
